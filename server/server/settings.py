@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'photo',
+    'accounts',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -78,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mealmemo',
         'USER': 'root',
-        'PASSWORD': 'root123',
+        'PASSWORD': '123456',
         'HOST':'localhost',
         'PORT':'3306',
     }
