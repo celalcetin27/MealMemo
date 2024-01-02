@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Julius";
+  src: url("./JuliusSansOne-Regular.ttf");
+}
+
+:root {
+  --font-family: "Julius";
+  --primary-color: #f27a1a;
+}
